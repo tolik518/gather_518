@@ -1,0 +1,28 @@
+{
+    "name": "Gather 518% (Gather Town Tweaks)",
+    "description": "Teleportation, get colleagues to you instead of standing up and more comming!",
+    "version": "0.1.0",
+    "manifest_version": 3,
+
+    "icons": {
+        "16":"/images/GT16.png",
+        "48":"/images/GT48.png",
+        "128":"/images/GT128.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["https://app.gather.town/app/*"],
+            "js": ["inject.js"],
+            "run_at": "document_end"
+        }
+    ],
+
+    "web_accessible_resources": [{
+        "resources": ["contentScript.js", "inject.js"],
+        "matches": ["http://*/*", "https://*/*"],
+        "extension_ids": []
+    }],
+
+    "host_permissions": ["https://app.gather.town/app/*"]
+  }
