@@ -9,3 +9,5 @@ Gather 518% is a google chrome extension that adds some menu points to the gathe
 ### Known Bugs 
 - extension may not load it you opened the room from the dashboard
   - workaround: reload the site (`F5`)
+- "Get over here" not working properly
+   - workaround: press one of the arrow keys to stop walking
