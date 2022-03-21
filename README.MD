@@ -6,6 +6,12 @@ Gather 518% is a google chrome extension that adds some menu points to the gathe
 - Teleport to User
 - Make yourself a robot (other can control you through chat commands e.g. `up 2`, `left 4`, `down 1`)
 
+### Planned
+- Better UI (hover, animations)
+- More additions (Add UI elemnts to the online list to the users)
+- Code cleanup
+- Bug fixes
+
 ### Known Bugs 
 - extension may not load it you opened the room from the dashboard
   - workaround: reload the site (`F5`)
