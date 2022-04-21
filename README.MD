@@ -1,4 +1,7 @@
 # Gather 518% (Gather Town Tweaks) ![Icon](https://returnnull.de/images/GT32.png) 
+
+## ⚠️ The new Gather.Town version broke the plugin ⚠️
+
 [<img src="https://returnnull.de/images/gather518_1.png" alt="Secrets of Grindea Screenshot" height="auto" align="right">](https://github.com/tolik518/gather_518/releases)
 Gather 518% is a google chrome extension that adds some menu points to the gather town UI.
 
